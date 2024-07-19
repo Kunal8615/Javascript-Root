@@ -1,0 +1,9 @@
+/**
+  * JavaScript mein Promise ek bahut mahatvapurna concept hai jo asynchronous 
+  * programming ko handle karne ke liye istemal hota hai. Jab aap kisi asynchronous 
+  * task ko perform karte hain, jaise ki ek API se data fetch karna ya file se data read 
+  * karna, toh aise cases mein code execution continue hota hai bina wait kiye. Promise ke istemal 
+  * se aap execution ko control karte hain aur jab task complete ho jata hai, tab 
+  * specific actions ko perform kar sakte hain.
+  * represent eventulay completion  or faliure
+  */

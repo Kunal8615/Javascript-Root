@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .data {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <input class="inputtext" type="text" value="">
+        <button onclick="add()" class="btn">Add</button>
+    </div>
+    <div class="data">
+        
+    </div>
+
+    <script>
+        const addtolocal = (val) => {
+          return localStorage.setItem("todoval", JSON.stringify(val));
+        };
+        const gettodolistfromlocal = () => {
+            return JSON.parse(localStorage.getItem("todoval")) || [];
+        };
+
+        var button = document.querySelector(".btn");
+        var box = document.querySelector(".data");
+        let todolistvalue = [];
+
+
+        todolistvalue = gettodolistfromlocal();
+
+        const add = () => {
+            let val = document.querySelector('.inputtext').value;
+            let newtodo = val.trim();
+            if (val.length !== 0) {
+                todolistvalue.push(newtodo);
+                addtolocal(todolistvalue);
+                console.log("Function is working");
+                let node = document.createElement("li");
+                node.textContent = val;
+                box.appendChild(node);
+            }
+        }
+    </script>
+</body>
+</html>
