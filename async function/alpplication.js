@@ -1,7 +1,9 @@
 function fetchData() {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve("Data fetched successfully!");
+            resolve("Data fetched successfully!",{
+                kunal : "hello"
+            });
         }, 2000); // Simulating a 2-second delay
     });
 }

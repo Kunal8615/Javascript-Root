@@ -24,7 +24,7 @@ async function perfect(){
     let mu = await mumbai;
     let ja=  await jaipur;
   
-    return[dm,mu,ja];
+    return dm,mu,ja;
   }
 
   perfect()
