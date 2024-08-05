@@ -4,5 +4,5 @@ const city =  [
     "delhi","rajaasthan","harayana","punjab","goa"
 ]
 
-const b = city.some((c)=> c.includes("z"))
+const b = city.some((c)=> c.includes("p"))
 console.log(b);
