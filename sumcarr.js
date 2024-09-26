@@ -16,7 +16,7 @@ function countCarryOperations(num1, num2) {
 
     // Loop until there are no more digits left in both numbers or no carry over remains
     while (i >= 0 || j >= 0 || carryOver) {
-        // Get digits from both numbers; if a number is shorter, consider missing digits as 0
+        // Get digits from both numbers; if   a number is shorter, consider missing digits as 0
         let digit1 = i >= 0 ? parseInt(str1[i]) : 0;
         let digit2 = j >= 0 ? parseInt(str2[j]) : 0;
 
