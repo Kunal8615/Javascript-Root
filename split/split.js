@@ -7,6 +7,6 @@ let newarr = splittedArray.map((val)=>{
     let len = val.length
     return len+val;
 })
-
+console.log(str + " " +  "demo");
 newarr = newarr.join(' ');
 console.log(newarr);
