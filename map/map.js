@@ -7,3 +7,5 @@ const fun = (val)=>{
 const newarr = arr.map(fun)
 
 console.log(newarr);
+
+//return new array

@@ -3,8 +3,8 @@ const check = (strr) => {
     let count = 0;
   let len = strr.length;
 
-    for (let char of strr) {        // loop directly through the string
-      if (vowels.includes(char)) {  // check if it's a vowel
+    for (let char of strr) {        
+      if (vowels.includes(char)) { 
         count++;
       }
     }

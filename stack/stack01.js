@@ -24,4 +24,5 @@ const a = new Stack();
 a.push(45);
 a.push(11);
 a.pop()
+a.push(11);
 a.print();  // This should now work correctly
