@@ -1,2 +1,2 @@
-
-  display(){
+obj.display()
+// obj.sum()

@@ -1,9 +1,6 @@
-function isa(a,b){
-if(a.split("").sort().join("")===b.split("").sort().join("")){
-    return true
-}else{
-    return false;
-}
+function ar(a,b){
+return a.split("").sort().join("") == b.split("").sort().join("") 
 }
 
-console.log(isa('listen','silant'));
+console.log(ar("kpnal","lpnak"));
+

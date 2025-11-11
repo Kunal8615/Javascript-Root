@@ -12,6 +12,7 @@ val.then((val)=>{
     console.log(val.new);
 }).catch((err)=>{
     console.log(err);
+    
 })
 
 console.log("3");

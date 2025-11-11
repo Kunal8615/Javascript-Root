@@ -13,6 +13,15 @@ class demo{
   }
 };
 
+class har extends demo{
+ 
+  play(){
+    console.log("secondclass");
+  }
+};
 let obj = new demo(4,6);
-obj.display()
-obj.sum()
+// obj.display()
+// obj.sum()
+let n = new har("b");
+
+console.log(n.display());

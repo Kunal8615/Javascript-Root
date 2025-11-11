@@ -9,3 +9,6 @@ function circle(a,b){
 };
 let one = new circle(7,9)
 console.log(one);
+
+let x = prompt("Enter a number: ");
+console.log("You entered:", x);

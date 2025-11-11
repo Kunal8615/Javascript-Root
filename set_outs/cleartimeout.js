@@ -12,3 +12,4 @@ let set1=setInterval(time,1000)
 setTimeout(()=>{
     clearInterval(set1)
 },6000 )
+
